@@ -1,0 +1,24 @@
+causton                 Yeast mRNA Expression Data
+cellcycle               Cell-Cycle Cluster Matrix
+clust2Mat               Function to compute adjacency matrix of
+                        cluster graph given a vector of cluster
+                        memberships
+depthmat                Matrices of depth of association for pairs of
+                        YEAST genes with respect to each of the BP,CC
+                        and MF ontologies of the GO database
+getdepth                Function to obtain maximum depth of all terms
+                        in GO shared by a pair of genes
+getpvalue               Function to obtain P values from the Edge
+                        permutation and Node permutation tests
+                        respectively
+giaever                 Yeast Gene-Knockout Fitness Data
+makeClustM              Make an adjacency matrix for a cluster graph
+mat2UndirG              Change graph representations
+mRNAclusters            Yeast mRNA Expression Data Cluster Memberships
+permPower               Function to compute estimated probability of
+                        detecting preferential connection of
+                        intracluster nodes
+perms                   Randomly permute edges or node labels in a
+                        graph
+Phenoclusters           Yeast Gene-Knockout Fitness Data Cluster
+                        Memberships
