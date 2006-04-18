@@ -34,7 +34,7 @@ the data source that is permutated with respect to edges or notes}
 from Random Edge Permutation and the second element is the P value
 from Random Node Permutation}
 
-\author{Raji Balasubramanian <rbalasub@hsph.harvard.edu>}
+\author{Raji Balasubramanian \email{rbalasub@hsph.harvard.edu}}
 
 \seealso{\code{\link{permEdgesM2M}}, \code{\link{permNodesM2M}}, \code{\link{makeClustM}}}
 \examples{
