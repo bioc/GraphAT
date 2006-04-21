@@ -6,5 +6,6 @@ Description: Functions and data used in Balasubramanian, et al. (2004)
 Maintainer: Thomas LaFramboise <tlaframb@hsph.harvard.edu>
 Depends: MCMCpack, graph
 License: LGPL
+biocViews: Statistics, GraphsAndNetworks
 
 
