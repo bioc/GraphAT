@@ -13,8 +13,7 @@ data(causton)
 
 ## Find the 3000 most variable genes, according to sd/mean:
 
-varMeas<-function(vec){
-sd(vec)/mean(vec)}
+varMeas<-function(vec) sd(vec)/mean(vec)
 variability<-apply(causton,1,varMeas)
 
 rks<-rank(variability)
