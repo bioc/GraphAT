@@ -12,14 +12,21 @@
 data(giaever)
 
 ## Find the 3000 most variable genes, according to sd/mean:
+varMeas <- function(vec, na.rm=TRUE) 
+{
+    if(na.rm)
+      vec <- vec[!is.na(vec)]
+    if(length(vec) == 0)
+      measure <- NA
+    else
+      measure <- sd(vec)/mean(vec)
+    return(measure)
+}
 
-varMeas<-function(vec,na.rm=TRUE) 
-     sd(vec,na.rm = na.rm)/mean(vec,na.rm = na.rm)
+variability <- apply(giaever, 1, varMeas)
 
-variability<-apply(giaever, 1, varMeas)
+rks <- rank(variability)
 
-rks<-rank(variability)
-
-giaever3000<-giaever[rks>length(rownames(giaever))-3000,]
+giaever3000 <- giaever[rks>length(rownames(giaever))-3000,]
 }
 \keyword{datasets}
