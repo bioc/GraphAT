@@ -18,7 +18,7 @@ mat2UndirG<-function(V,mat){
 	}
     	names(rval) <- V
     	g1<-new("graphNEL", nodes = V, edgeL = rval)
-	g1@edgemode<-"undirected"
+	edgemode(g1)<-"undirected"
 	return(g1)
 }
 
