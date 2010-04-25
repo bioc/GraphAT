@@ -1,0 +1,8 @@
+import(methods)
+importClassesFrom(graph, graphNEL)
+importMethodsFrom(graph, "edgemode<-")
+importFrom(MCMCpack, rnoncenhypergeom)
+importFrom(stats, binom.test)
+
+export(clust2Mat, getpvalue, makeClustM, mat2UndirG, permEdgesM2M,
+       permNodesM2M, permPower)

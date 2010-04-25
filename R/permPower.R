@@ -2,8 +2,6 @@
 permPower<-function(psi=1,clsizes, nedge, nhyper=100, nperms=1000)
 {
 
-require("MCMCpack") || stop("permPower requires package MCMCpack")
-
 #function to  randomly select a subset of the edges of a graph
 #takes an adjacency matrix called mat and number samp of edges to select
 ## Modified from Denise's permEdgesM2M
