@@ -1,6 +1,6 @@
 Package: GraphAT
 Title: Graph Theoretic Association Tests
-Version: 1.78.0
+Version: 1.79.0
 Date: 2012-04-27
 Author: R. Balasubramanian, T. LaFramboise, D. Scholtens
 Description: Functions and data used in Balasubramanian, et al. (2004)
